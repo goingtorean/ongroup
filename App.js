@@ -126,7 +126,7 @@ export default function App() {
           <Text>User1: {count1}</Text>
         </View>
         <View>
-          <Text>User1: {count2}</Text>
+          <Text>User2: {count2}</Text>
         </View>
       </View>
       <View style={{ flexDirection: "row", flexWrap: "wrap" }}>
