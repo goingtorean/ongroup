@@ -132,6 +132,9 @@ export default function App() {
       <View style={{ flexDirection: "row", flexWrap: "wrap" }}>
         {data?.map(renderChildView)}
       </View>
+      <View style={{ marginTop: 40 }}>
+        <Text>Turn: {user1 ? `User1` : `User2`}</Text>
+      </View>
     </SafeAreaView>
   );
 }
